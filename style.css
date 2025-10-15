@@ -1,0 +1,22 @@
+p {
+  color: white;
+  font-family: Lato;
+}
+h1 {
+  color: white;
+  font-family: Lato;
+  text-align: center;
+}
+button {
+  background-color: #b3b7c4;
+  border-color: black;
+  color: #000c36;
+  font-family: Lato;
+  text-align: center;
+}
+button:hover {
+  background-color: #8e93a3;  
+}
+body {
+  background-color: #000c36;
+}

@@ -1,24 +1,47 @@
 p {
   color: white;
-  font-family: Lato;
+  font-family: Lato, sans-serif;
+  text-align: center;
 }
+
 h1 {
   color: white;
-  font-family: Lato;
+  font-family: Lato, sans-serif;
   text-align: center;
 }
+
 button {
   background-color: #b3b7c4;
-  border-color: black;
+  border: 1px solid black;
   color: #000c36;
-  font-family: Lato;
+  font-family: Lato, sans-serif;
   text-align: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
 }
+
 button:hover {
   background-color: #8e93a3;  
 }
+
+input {
+  width: 250px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+}
+
 body {
   background-color: #000c36;
+  height: 100vh;
+  display: flex;           
   justify-content: center; 
-  align-items: center;
+  align-items: center;      
+  flex-direction: column;   
+  margin: 0;
 }
+
